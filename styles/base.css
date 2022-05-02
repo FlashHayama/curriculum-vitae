@@ -1,0 +1,25 @@
+li{
+    /*list-style:square;*/
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+#header .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#information .category-content img{
+    width: 30px;
+}

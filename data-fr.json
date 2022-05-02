@@ -1,0 +1,90 @@
+{
+    "header":{
+        "name":"Marchand Valentin",
+        "study":"Bachelier informatique orientation système et télécommunication option dévelopement"
+    },
+    "motivation":{
+        "title":"Motivations",
+        "content":""
+    },
+    "information":{
+        "title":"Informations",
+        "content":[
+            {
+                "img":"",
+                "data":""
+            },
+            {
+                "img":"",
+                "data":""
+            }
+        ]
+    },
+    "training":{
+        "title":"Formations",
+        "content":[
+            {
+                "date":"2021-2022",
+                "description":"Bloc complementaire pour une spécialisation en IA."
+            },
+            {
+                "date":"2021",
+                "description":"Formation du MIT sur le python et l'informatique."
+            },
+            {
+                "date":"2018-2021",
+                "description":"Bachelier informatique orientation système et télécommunication option dévelopement."
+            },
+            {
+                "date":"2017-2018",
+                "description":"Première année de bachelier d'étude d'ingénieur industriel."
+            }
+        ]
+    },
+    "experience":{
+        "title":"Experiences",
+        "content":[
+            {
+                "date":"",
+                "description":""
+            },
+            {
+                "date":"",
+                "description":""
+            }
+        ]
+    },
+    "knowlegde":{
+        "title":"Connaissances",
+        "content":[
+            {
+                "type":"Langage de programmation",
+                "name":"JavaScript",
+                "level":"Avancé"
+            },
+            {
+                "type":"Langage de programmation",
+                "name":"C#",
+                "level":"Correct"
+            },
+            {
+                "type":"Langue",
+                "name":"Français",
+                "level":"Maternel"
+            },
+            {
+                "type":"Langue",
+                "name":"Anglais",
+                "level":"Lecture"
+            }
+        ]
+    },
+    "hobby":{
+        "title":"Loisirs",
+        "content":[
+            "Vélo",
+            "Montage pc",
+            "Jeux video"
+        ]
+    }
+}
