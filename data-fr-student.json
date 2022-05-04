@@ -1,0 +1,106 @@
+{
+    "header":{
+        "name":"Marchand Valentin",
+        "study":"Bachelier informatique orientation système et télécommunication option dévelopement"
+    },
+    "motivation":{
+        "title":"Motivations",
+        "content":"Actuellement étudiant en bloc complémentaire, j'ai désidé d'arréter afin de commencer à travailler, mais ayant encore le status d'étudiant, je déside d'en profiter afin de pouvoir encore me former sur le coté, je suis motivé à travailler et disponible toute les semaines jusque fin join."
+    },
+    "information":{
+        "title":"Informations",
+        "content":[
+            {
+                "img":"permis-de-conduire.png",
+                "data":"Permi B"
+            },
+            {
+                "img":"pin.png",
+                "data":"Rue de la Montagne 29, 7340 Colfontaine"
+            },
+            {
+                "img":"email.png",
+                "data":"MarchandValentin.7@outlook.fr"
+            },
+            {
+                "img":"telephone.png",
+                "data":"+32 495/92/46/20"
+            }
+        ]
+    },
+    "training":{
+        "title":"Formations",
+        "content":[
+            {
+                "date":"2021-2022",
+                "description":"Bloc complementaire pour une spécialisation en IA."
+            },
+            {
+                "date":"2021",
+                "description":"Formation du MIT sur le python et l'informatique."
+            },
+            {
+                "date":"2018-2021",
+                "description":"Bachelier informatique orientation système et télécommunication option dévelopement."
+            },
+            {
+                "date":"2017-2018",
+                "description":"Première année de bachelier d'étude d'ingénieur industriel."
+            }
+        ]
+    },
+    "experience":{
+        "title":"Experiences",
+        "content":[
+            {
+                "date":"2021",
+                "description":"Stage de 3 mois dans l'entreprise lithobeton en tant que développeur"
+            },
+            {
+                "date":"2018",
+                "description":"Concert d'un crossover de pink floyd en tant que bénévole au service"
+            },
+            {
+                "date":"2017",
+                "description":"Stage de 1 mois dans l'entreprise CGE en tant qu'électricien"
+            }
+        ]
+    },
+    "knowlegde":{
+        "title":"Connaissances",
+        "content":[
+            {
+                "type":"Langue",
+                "name":"Français",
+                "level":"Maternel"
+            },
+            {
+                "type":"Langue",
+                "name":"Anglais",
+                "level":"Lecture"
+            }
+        ]
+    },
+    "hobby":{
+        "title":"Loisirs",
+        "content":[
+            "Vélo",
+            "Montage pc",
+            "Programmation"
+        ]
+    },
+    "quality":{
+        "title":"Qualitées",
+        "content":[
+            "Ponctuel",
+            "Obtimiste",
+            "Souriant"
+        ]
+    },
+    "fault":{
+        "title":"Défauts",
+        "content":[
+            "Distrait"
+        ]
+    }
+}

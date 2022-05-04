@@ -1,7 +1,7 @@
 var data;
 
 window.onload = function(){
-    $.get("../data-fr.json", function(json){
+    $.get("../data-fr-student.json", function(json){
         data = json;
 
         setHeader();
@@ -11,6 +11,8 @@ window.onload = function(){
         setInformation();
         setknowlegde();
         setDefault("hobby");
+        setDefault("quality");
+        setDefault("fault");
     });
 }
 
@@ -45,6 +47,7 @@ function setInformation(){
 
         img.src = "../images/" + contents[i]["img"];
         p.innerHTML = contents[i]["data"];
+        li.className = "row";
         li.appendChild(img);
         li.appendChild(p);
         ul.appendChild(li);
@@ -64,13 +67,19 @@ function setTrainingOrExperience(){
     for(let i in contents){
         let li = document.createElement("li");
         let date = document.createElement("p");
+        let doublePoint = document.createElement("p");
         let description = document.createElement("p");
 
         date.innerHTML = contents[i]["date"];
         date.className = "date";
+        doublePoint.innerHTML = ":";
+        doublePoint.className = "double-point";
         description.innerHTML = contents[i]["description"];
         description.className = "description";
+
+        li.className = "row";
         li.appendChild(date);
+        li.appendChild(doublePoint);
         li.appendChild(description);
 
         ul.appendChild(li);
@@ -81,7 +90,7 @@ function setTrainingOrExperience(){
 function setknowlegde(){
     let title = data.knowlegde["title"];
     let contents = data.knowlegde["content"];
-    let dom = document.getElementById("knowlegde");
+    let dom = document.getElementById("knowledge");
     let ul = document.createElement("ul");
 
     dom.getElementsByClassName("category-title")[0].innerHTML = title;
@@ -90,7 +99,7 @@ function setknowlegde(){
         let type = contents[i]["type"];
         let classType = type.replace(/ /g,"-");
         let li = document.createElement("li");
-        let classList = `${classType} knowlegde`
+        let classList = `${classType} knowledge`;
         let domType = ul.getElementsByClassName(classList)[0];
 
         if(domType === undefined){
@@ -105,10 +114,15 @@ function setknowlegde(){
         }
 
         let pName = document.createElement("p");
+        let doublePoint = document.createElement("p");
         let pLevel = document.createElement("p");
-        pName.innerHTML = contents[i]["name"] + " :";
+        pName.innerHTML = contents[i]["name"];
+        doublePoint.innerHTML = ":";
+        doublePoint.className = "double-point";
         pLevel.innerHTML = contents[i]["level"];
+        li.className = "row";
         li.appendChild(pName);
+        li.appendChild(doublePoint);
         li.appendChild(pLevel);
         domType.appendChild(li);
 
@@ -126,7 +140,7 @@ function setDefault(){
 
     for(let i in contents){
         let li = document.createElement("li");
-        li.innerHTML = contents[i]
+        li.innerHTML = contents[i];
         ul.appendChild(li);
     }
 
